@@ -1,0 +1,5 @@
+1. After Windows install of python, add python and pip path to system & user path.
+2. With bad internet connection, use the following:
+    command: pip install xxxx -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+3. Convert python script to .exe:
+    command: pyinstaller --onedir <filename.py>
