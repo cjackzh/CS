@@ -9,5 +9,5 @@
     Branch off from "main" branch to safely experiment with new features.
     command: git checkout -b <new branch name> //create a new branch away from "main" branch, to experiment without compromising the main branch.
     command: git branch //display the current active branch. This will determine what branch commit and push would be directed to.
-    
+    command: git checkout <branch name> //switch between different branches.
     
