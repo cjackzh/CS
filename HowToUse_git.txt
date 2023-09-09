@@ -1,0 +1,7 @@
+Create a new repository in GitHub.
+    command: git clone <repository url>
+create new file in local repository
+    command: git add <file name> // Ask git to keep track of the file
+    command: git commit -m "<message>" // quick description on what this commit has done, e.g, new file, new lines, deleted lines, etc. 
+    command: git push // the repository on GitHub will be updated with my local file.
+    
