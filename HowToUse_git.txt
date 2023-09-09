@@ -1,7 +1,13 @@
-Create a new repository in GitHub.
+1. Create a new repository in GitHub.
     command: git clone <repository url>
-create new file in local repository
-    command: git add <file name> // Ask git to keep track of the file
+2. create new file in local repository
+    command: git add <file name> or <filename> // Ask git to keep track of the file or all files within a folder
     command: git commit -m "<message>" // quick description on what this commit has done, e.g, new file, new lines, deleted lines, etc. 
     command: git push // the repository on GitHub will be updated with my local file.
+    command: git commit -am "<message>" //add and commit all changes.
+3. Branching
+    Branch off from "main" branch to safely experiment with new features.
+    command: git checkout -b <new branch name> //create a new branch away from "main" branch, to experiment without compromising the main branch.
+    command: git branch //display the current active branch. This will determine what branch commit and push would be directed to.
+    
     
